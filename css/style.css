@@ -1,0 +1,600 @@
+@import url("https://use.typekit.net/nxg4ndl.css");
+@import url("https://use.typekit.net/sas4eqb.css");
+
+
+/*                                      main elements                                        */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #fff;
+    font-family: all-round-gothic, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #EDEDED;
+    position: relative;
+    padding-bottom: 200px;
+    height: 100vh;
+}
+
+header {
+    background-image: url("../img/workshop/header-bg.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+    position: relative;
+}
+
+h1 {
+    text-align: center;
+    font-size: 5rem;
+    font-family: abril-display, serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h2 {
+    font-family: mrdafoe-pro, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+p {
+    color: #33405C;
+    padding: 10px 0;
+}
+
+/*                                      navigation bar + logo                                       */
+
+nav {
+    background-color: RGBA(56, 45, 42, 0.5);
+    font-size: 1.3em;
+}
+
+nav li a {
+    display: block;
+    text-align: center;
+    padding: 30px;
+    text-decoration: none;
+    color: #EDEDED;
+}
+
+ul {
+    list-style-type: none;
+}
+
+nav li a:hover {
+    color: #7E9BE0;
+}
+
+.logo {
+    margin: auto 0;
+    padding-left: 30px;
+    width: 100%;
+}
+
+.logo:hover {
+    cursor: pointer;
+}
+
+.menu {
+    display: grid;
+    grid-template-columns: 300px auto 300px;
+    justify-items: center;
+    grid-template-rows: 140px auto;
+}
+
+.menu-left {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    margin: auto 0;
+}
+
+.menu-right {
+    display: inline-flex;
+    margin: auto 0;
+}
+
+.menu-right {
+    padding-right: 60px;
+}
+
+.menu-right img {
+    width: 20px;
+    height: 20px;
+}
+
+.menu-right img:hover {
+    filter: invert(61%) sepia(47%) saturate(482%) hue-rotate(187deg) brightness(92%) contrast(89%);
+}
+
+/*                                      submenu for Shoes                                       */
+
+.shoesMenu a {
+    text-decoration: none;
+    color: #EDEDED;
+    font-size: 16px;
+    padding: 10px;
+    display: inline-block;
+}
+
+.shoes img {
+    display: block;
+    margin: 0 auto;
+    padding-bottom: 15px;
+}
+
+.shoes img:hover {
+    filter: invert(61%) sepia(47%) saturate(482%) hue-rotate(187deg) brightness(92%) contrast(89%);
+}
+
+.shoesMenu ul li:hover {
+    background: #33405C;
+}
+
+ul li:hover ul {
+    display: flex;
+    flex-flow: row;
+    align-items: flex-end;
+    margin: 0 auto;
+}
+
+ul li ul {
+    position: absolute;
+    left: 26%;
+    width: 70%;
+    display: none;
+}
+
+ul li ul li {
+    background-color: #33405C;
+    height: 130px;
+    display: flex;
+    flex-flow: row;
+    align-items: flex-end;
+}
+
+ul li ul li:hover {
+    color: #7E9BE0;
+}
+
+/*                                           welcome text                                           */
+
+.welcome {
+    position: absolute;
+    right: 50px;
+    bottom: 80px;
+}
+
+.welcome h2 {
+    position: absolute;
+    right: 0px;
+    bottom: -40px;
+    font-size: 3.5em;
+}
+
+/*  middle page composition and stuff I'm afraid to touch or it will collapse - quest for summer training with flex/grid/responsivness   */
+
+.column {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    justify-content: space-between;
+    max-width: 70%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.rowContainer,
+#rowContUpLeft {
+    display: inline-flex;
+    justify-self: center;
+    padding: 40px 0px;
+}
+
+.rowContainer {
+    align-items: center;
+}
+
+.buttonContainer {
+    display: inline-flex;
+    justify-self: center;
+}
+
+.column h3 {
+    color: #33405C;
+}
+
+.headlineBox {
+    display: flex;
+    justify-content: space-between;
+}
+
+.headline {
+    margin-bottom: 40px;
+}
+
+.headlineBox2,
+.headlineGroup {
+    display: grid;
+    grid-template-columns: 30% auto;
+}
+
+.headlineGroup a {
+    text-decoration: none;
+}
+
+.headlineGroup a h3:hover {
+    text-decoration: underline;
+    color: #7E9BE0;
+}
+
+.headlineBox2 {
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.headlineGroup {
+    justify-content: space-around;
+    margin: 40px 0;
+    padding: 0 100px;
+}
+
+.headlineGroup h3 {
+    font-size: 2.5em;
+    color: #33405C;
+}
+
+.faq,
+.purchaseConditions {
+    display: block;
+    max-width: 60%;
+    margin: 50px auto;
+    color: #33405C;
+}
+
+.infobox2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #33405C;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #33405C;
+    padding: 50px 0;
+}
+
+
+/*                                          button                                              */
+
+button {
+    background-color: #33405C;
+    color: #EDEDED;
+    padding: 10px 15px;
+    margin-top: 10px;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 20px;
+    transition-duration: 0.4s;
+}
+
+button:hover {
+    background-color: #7E9BE0;
+    cursor: pointer;
+}
+
+/*                                               filters for categories                                       */
+
+.filterGroup {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: space-around;
+}
+
+.filter {
+    position: relative;
+    margin: 0 20px;
+}
+
+.labelFilter {
+    position: absolute;
+    top: 2px;
+    left: 60px;
+    font-size: 1.2em;
+    color: #33405C;
+    position: absolute;
+    z-index: 1;
+}
+
+input[list] {
+    height: 30px;
+}
+
+input[list]:hover {
+    height: 30px;
+    background-color: #7E9BE0;
+}
+
+input[list]:checked {
+    height: 30px;
+    background-color: #7E9BE0;
+}
+
+/*                                       product styling                                         */
+
+.products,
+#products1,
+#products2,
+#products3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: space-around;
+    max-width: 70%;
+    margin: 0 auto;
+}
+
+.product {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 40px;
+}
+
+.product h3 {
+    color: #7A625B;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.product h4 {
+    color: #33405C;
+    font-weight: 500;
+}
+
+.product img {
+    display: block;
+    width: 100%;
+    margin: 10px auto;
+}
+
+.product:hover {
+    border-bottom-color: #33405C;
+}
+
+.productPage {
+    max-width: 60%;
+    margin: 0 auto;
+}
+
+.discount {
+    position: absolute;
+    bottom: 40px;
+    right: -40px;
+}
+
+.productPic {
+    width: 500px;
+}
+
+.productPic2 {
+    border-radius: 50%;
+}
+
+.productDetails {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: space-between;
+    margin: 40px;
+}
+
+.price {
+    height: 500px;
+}
+
+.price,
+.infobox {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 500px;
+    padding: 80px;
+    color: #33405C;
+}
+
+.priceTag {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 500px;
+    padding: 20px 0;
+    color: #33405C;
+}
+
+.price h3 {
+    color: #7A625B;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 1.6rem;
+}
+
+.price h4 {
+    color: #33405C;
+    font-weight: 700;
+}
+
+.iconContainer {
+    display: block;
+    margin: 0 auto;
+    padding: 0 30px 0 0;
+}
+
+/*                                      select options for product page                                         */
+
+#size,
+#colour {
+    color: #33405C;
+}
+
+select {
+    width: 200px;
+    padding: 5px;
+}
+
+.selectContainer,
+.input-container,
+.input-container2 {
+    position: relative;
+}
+
+.label {
+    position: absolute;
+    font-size: 00.8em;
+    top: -15px;
+    left: 0px;
+}
+
+/*                                      contact form for Customer Service                                          */
+
+
+form .rowContainer {
+    padding: 15px 0;
+}
+
+#text {
+    height: 200px;
+    cursor: auto;
+}
+
+input {
+    position: relative;
+}
+
+.label2 {
+    color: #33405C;
+    position: absolute;
+    font-size: 00.8em;
+    top: -20px;
+    left: 20px;
+}
+
+.formError {
+    display: none;
+    margin-top: -30px;
+    padding-top: 35px;
+    padding-left: 20px;
+    font-weight: 500;
+    color: crimson;
+    font-size: 0.8em;
+}
+
+.input-container2 .input {
+    width: 640px;
+}
+
+.input {
+    width: 300px;
+    padding: 10px;
+    margin: 0 20px;
+}
+
+.input:hover {
+    border-color: #7E9BE0;
+}
+
+/*                                        footer                                      */
+
+footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    background-color: #33405C;
+    height: 180px;
+    font-family: all-round-gothic, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #EDEDED;
+}
+
+.footer-menu {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    padding: 20px 0 0 0;
+}
+
+.block,
+.follow {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 80%;
+    padding: 0 20px;
+}
+
+.block {
+    margin-bottom: 20px;
+}
+
+.footer-menu h3,
+.inline h3 {
+    padding: 0 0 10px 0;
+    font-weight: 400;
+    text-decoration: underline;
+}
+
+.submenu li a {
+    color: #EDEDED;
+    text-decoration: none;
+}
+
+.submenu li a:hover {
+    color: #7E9BE0;
+}
+
+.inline {
+    display: inline-flex;
+    justify-content: center;
+}
+
+.inline img {
+    padding: 10px 15px;
+    margin: 0 auto;
+}
+
+.inline img:hover {
+    filter: invert(61%) sepia(47%) saturate(482%) hue-rotate(187deg) brightness(92%) contrast(89%);
+}
+
+footer p {
+    font-size: 0.8em;
+    padding-top: 40px;
+    color: #EDEDED;
+}
+
+
+/* mobile devices up to 480px resolution */
+
+@media (max-width: 480px) {
+    footer {
+        height: auto;
+    }
+
+    .footer-menu {
+        clear: both;
+        justify-content: flex-start;
+    }
+}
