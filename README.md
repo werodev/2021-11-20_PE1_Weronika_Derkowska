@@ -1,2 +1,3 @@
 Project Exam 1
 ==============
+This exams goal is to show what we’ve learned during whole 1st year of Front-End Development. In order to show that, I need to build self-contained, branded microsite. It’s purpose should be promotional, helping build awareness about space program activity. Website should be responsive and working on variety of platforms. It should contain minimum 4 subpages. It’s strengths should be: good research, matching graphic design, IxD, semantic HTML/CSS and JavaScript. 
