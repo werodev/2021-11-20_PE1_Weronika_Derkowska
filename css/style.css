@@ -42,6 +42,7 @@ a {
 header {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     padding: 30px;
 }
 
@@ -59,14 +60,24 @@ nav {
 
 nav a {
     align-items: center;
-    padding: 0 20px;
+    padding: 20px;
     font-size: 1.2rem;
+    margin: 5px;
+    border-radius: 25px;
+    transition: background-color 1s;
 }
 
 nav a:hover {
     color: var(--purple);
     background-color: var(--light);
 }
+
+#rocket-burger-checkbox,
+.nav-container img {
+    display: none;
+}
+
+
 
 button {
     padding: 20px;
@@ -122,8 +133,9 @@ button:hover {
 
 footer {
     min-height: 960px;
-    display: grid;
-    grid-template-rows: auto 120px;
+    width: 100vw;
+    display: inline-grid;
+    grid-template-rows: auto;
     background-image: url(/Exam/2021-11-20_PE1_Weronika_Derkowska/img/rocket_station.png);
     background-repeat: no-repeat;
     background-position-x: center;
@@ -148,6 +160,7 @@ footer {
 .explanation {
     width: 90vw;
     margin: auto;
+    padding-left: 30px;
 }
 
 .explanation p {
@@ -159,4 +172,49 @@ footer {
     border-radius: 25px;
     margin: 0 auto;
     text-align: center;
+}
+
+
+
+
+
+@media (max-width:1020px) {
+
+    .nav-container img {
+        display: block;
+    }
+
+    nav,
+    #rocket-burger-checkbox {
+        display: none;
+    }
+
+    #rocket-burger-checkbox:checked~nav {
+        display: block;
+    }
+
+    .nav-container {
+        position: relative;
+    }
+
+    .nav-container label {
+        padding: 20px;
+    }
+
+    nav {
+        margin: 50px 0;
+        position: absolute;
+        width: 100vw;
+        right: -30px;
+        background-color: var(--purple);
+    }
+
+    nav a {
+        display: block;
+    }
+
+    nav a:hover {
+        color: var(--dark);
+    }
+
 }
