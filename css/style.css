@@ -79,7 +79,7 @@ nav a:hover {
 
 
 
-button {
+.subpage a {
     padding: 20px;
     height: 6rem;
     width: 240px;
@@ -92,7 +92,7 @@ button {
     transition: background-color 1s;
 }
 
-button:hover {
+.subpage a:hover {
     background-color: var(--purple);
 }
 
