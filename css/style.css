@@ -176,7 +176,7 @@ footer {
     width: 100vw;
     display: inline-grid;
     grid-template-rows: auto;
-    background-image: url(/Exam/2021-11-20_PE1_Weronika_Derkowska/img/rocket_station.png);
+    background-image: url(../img/rocket_station.png);
     background-repeat: no-repeat;
     background-position-x: center;
     background-position-y: center;
