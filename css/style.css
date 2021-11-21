@@ -125,6 +125,20 @@ button:hover,
     min-width: 300px;
 }
 
+.launch {
+    border-style: double;
+    border-color: var(--light);
+    line-height: 1.6rem;
+    border-radius: 25px;
+    margin: 25px;
+    padding: 10px;
+    transition: background-color 1s;
+}
+
+.launch p {
+    text-align: left;
+}
+
 .cover-image {
     display: flex;
     margin: auto;
@@ -200,7 +214,62 @@ footer {
     text-align: center;
 }
 
+/*                                          form styling                                        */
 
+.input-container,
+.input-container2 {
+    position: relative;
+}
+
+.label {
+    position: absolute;
+    font-size: 00.8em;
+    top: -15px;
+    left: 0px;
+}
+
+form .rowContainer {
+    padding: 15px 0;
+}
+
+#text {
+    height: 200px;
+    cursor: auto;
+}
+
+input {
+    position: relative;
+    border-radius: 25px;
+}
+
+.label2 {
+    color: var(--light);
+    position: absolute;
+    font-size: 00.8em;
+    top: -20px;
+    left: 20px;
+}
+
+.formError {
+    display: none;
+    margin-top: -30px;
+    padding-top: 35px;
+    padding-left: 20px;
+    font-weight: 500;
+    color: crimson;
+    font-size: 0.8em;
+}
+
+.input-container2 .input,
+.input-container .input {
+    width: 600px;
+}
+
+.input {
+    width: 250px;
+    padding: 10px;
+    margin: 0 20px;
+}
 
 
 

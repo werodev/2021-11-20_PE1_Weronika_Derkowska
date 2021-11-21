@@ -29,24 +29,35 @@
     </header>
     <main>
         <section class="subpages-container">
-            <div class="subpage">
-                <div class="cover-image">
-                    <img src="img/launches.png" alt="Astronaut lounching flight up">
+            <form class="column" id="customerService">
+                <div class="rowContainer">
+                    <p>Let us know what would you like to know about space activity</p>
                 </div>
-                <div class="button-container"><a href="launches.html">LAUNCHES</a></div>
-            </div>
-            <div class="subpage">
-                <div class="cover-image">
-                    <img src="img/who_is_in_space.png" alt="Astronaut flying on a rocket ship">
+                <div class="rowContainer">
+                    <div class="input-container">
+                        <input type="text" id="firstname" class="input">
+                        <label for="firstname" class="label2">First name</label>
+                        <div class="formError" id="firstnameError">Please enter your firstname</div>
+                    </div>
                 </div>
-                <div class="button-container"><a href="who.html">WHO'S IN SPACE</a></div>
-            </div>
-            <div class="subpage">
-                <div class="cover-image">
-                    <img src="img/solar_system.png" alt="Astronaut sitting on a planet">
+                <div class="rowContainer">
+                    <div class="input-container">
+                        <input type="text" id="email" class="input">
+                        <label for="email" class="label2">e-mail</label>
+                        <div class="formError" id="emailError">Please give us a valid email address
+                        </div>
+                    </div>
                 </div>
-                <div class="button-container"><a href="contact.html">CONTACT US</a></div>
-            </div>
+                <div class="rowContainer" id="rowContUpLeft">
+                    <div class="input-container2">
+                        <input type="text" id="text" class="input">
+                        <label for="text" class="label2">How can we help?:</label>
+                    </div>
+                </div>
+                <div class="rowContainer">
+                    <button class="addToCart">Submit</button>
+                </div>
+            </form>
         </section>
     </main>
     <footer>
@@ -67,6 +78,7 @@
             </p>
         </section>
     </footer>
+    <script src="js/contactForm.js" type="module"></script>
 </body>
 
 </html>
