@@ -39,6 +39,8 @@ a {
     text-decoration: none;
 }
 
+/* navigation */
+
 header {
     background-color: var(--theme);
     display: flex;
@@ -180,7 +182,6 @@ footer {
     background-repeat: no-repeat;
     background-position-x: center;
     background-position-y: center;
-    justify-content: left;
     overflow: hidden;
 }
 
@@ -271,7 +272,7 @@ input {
     margin: 0 20px;
 }
 
-
+/* responsive navigation for smaller devices */
 
 @media (max-width:1020px) {
 
