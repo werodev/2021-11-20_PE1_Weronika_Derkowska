@@ -40,10 +40,14 @@ a {
 }
 
 header {
+    background-color: var(--theme);
     display: flex;
+    position: sticky;
+    top: 0px;
     justify-content: space-between;
     align-items: center;
     padding: 30px;
+    z-index: 1;
 }
 
 nav,
@@ -123,6 +127,18 @@ button:hover,
 
 .cover-image img {
     height: 100%;
+}
+
+.astronaut {
+    position: relative;
+    min-height: 310px;
+    margin: auto 0;
+}
+
+.astronaut img {
+    position: absolute;
+    bottom: 0px;
+    left: 25%;
 }
 
 .button-container {
