@@ -121,15 +121,15 @@ button:hover {
 }
 
 footer {
-    height: 100wh;
+    min-height: 960px;
     display: grid;
-    grid-template-rows: 80% 20%;
+    grid-template-rows: auto 120px;
     background-image: url(/Exam/2021-11-20_PE1_Weronika_Derkowska/img/rocket_station.png);
-    background-size: 100vh;
     background-repeat: no-repeat;
     background-position-x: center;
     background-position-y: center;
     justify-content: left;
+    overflow: hidden;
 }
 
 .socialmedia-container {
@@ -146,14 +146,17 @@ footer {
 }
 
 .explanation {
-    width: 100vw;
+    width: 90vw;
+    margin: auto;
 }
 
 .explanation p {
+    max-width: max-content;
     background-color: var(--dark);
     color: var(--light);
+    font-size: 0.8rem;
     padding: 30px;
     border-radius: 25px;
-    max-width: 600px;
     margin: 0 auto;
+    text-align: center;
 }
