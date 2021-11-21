@@ -102,7 +102,8 @@ button:hover,
     background-color: var(--purple);
 }
 
-.subpages-container {
+.subpages-container,
+.old-launches-container {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -110,6 +111,13 @@ button:hover,
     max-width: 900px;
     margin: auto auto 0 auto;
     padding: 50px 0;
+}
+
+.subpages-container h1,
+.old-launches-container h1 {
+    width: 100%;
+    text-align: center;
+    padding-bottom: 40px;
 }
 
 .subpage {
