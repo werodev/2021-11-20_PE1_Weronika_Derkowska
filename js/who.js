@@ -1,4 +1,4 @@
-const url = "http://api.open-notify.org/astros.json";
+const url = "https://noroffcors.herokuapp.com/http://api.open-notify.org/astros.json";
 const subpageContainer = document.querySelector(".subpages-container");
 
 const createData = async () => {
