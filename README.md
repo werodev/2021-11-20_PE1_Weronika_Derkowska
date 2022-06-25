@@ -2,7 +2,7 @@
 
 ![spacex](https://user-images.githubusercontent.com/47947621/175044507-a8e41119-5409-4a1f-b941-3060d664c6d9.gif)
 
-This exams goal is to show what we’ve learned during whole 1st year of Front-End Development. In order to show that, I need to build self-contained, branded microsite. It’s purpose should be promotional, helping build awareness about space program activity. Website should be responsive and working on variety of platforms. It should contain minimum 4 subpages. It’s strengths should be: good research, matching graphic design, IxD, semantic HTML/CSS and JavaScript. 
+This exams goal is to show what I’ve learned during whole 1st year of Front-End Development. In order to show that, I need to build self-contained, branded microsite. It’s purpose should be promotional, helping build awareness about space program activity. Website should be responsive and working on variety of platforms. It should contain minimum 4 subpages. It’s strengths should be: good research, matching graphic design, IxD, semantic HTML/CSS and JavaScript. 
 
 ## Description
 
@@ -32,7 +32,7 @@ Tasks/Goals:
 
 ### Installing
 
-This is clean HTML / CSS / JS project co just:
+This is clean HTML / CSS / JS project so just:
 
 1. Clone this repo:
 ```
@@ -48,8 +48,15 @@ code .
 
 If you use different editor, probably you know what to do :bowtie: (it'a simple, well structured project so don't worry - you will make it)
 
-## Contact
+## I'm proud of
 
+My JS code and graphics - super simple, yet fun. I dedicate this site to my two godsons - Borys and Franek (Both 8 years old)
+
+## Preview
+
+https://quirky-mahavira-80f17d.netlify.app/
+
+## Contact
 
 [My LinkedIn Page](https://www.linkedin.com/in/weronika-derkowska-a00459179/)
 
